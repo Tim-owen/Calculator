@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" type="text/css" href="app.css">
+    </head>
+    <body>
+        <h2 id="display"></h2>
+        <div id="containter">
+            <div class="btn-group">
+                <button class="general" onclick="reset()">AC</button>
+                <div class="number-group">
+                    <div id="row1">
+                        <button value=1>1</button>
+                        <button value=2>2</button>
+                        <button value=3>3</button>
+                    </div>
+                    <div id="row2">
+                        <button value=4>4</button>
+                        <button value=5>5</button>
+                        <button value=6>6</button>
+                    </div>
+                    <div id="row3">
+                        <button value=7>7</button>
+                        <button value=8>8</button>
+                        <button value=9>9</button>
+                    </div>
+                    <div id="row4">
+                        <button value=0>0</button>
+                    </div>
+                </div>
+                <div class="operator-group">
+                    <button value="+">+</button>
+                    <button value="x">*</button>
+                    <button value="-">-</button>
+                    <button value="%">%</button>
+                </div>
+                <button onclick="equals()">=</button>
+            </div>
+        </div>
+        <script src="app.js">
+        </script>
+    </body>
+</html>
