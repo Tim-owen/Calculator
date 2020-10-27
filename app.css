@@ -13,6 +13,7 @@
 }
 
 .btn-group button{
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     background-color: rgb(144, 189, 192);
     border: 20px black;
