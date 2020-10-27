@@ -1,14 +1,20 @@
 #display{
+    font-size: 22pt;
     text-align: center;
     background-color: grey;
     padding: 50px 50px;
     margin: 5px 5px;
-    width: 20%;
+    resize: none;
+    width: 16%;
+}
+
+.number-group{
+    margin: 5px 50px;
 }
 
 .btn-group button{
     text-align: center;
-    background-color: rgb(19, 133, 19);
+    background-color: rgb(144, 189, 192);
     border: 20px black;
     color: black;
     padding: 15px 30px;
@@ -17,7 +23,7 @@
 }
 
 .operator-group button{
-    float: right;
+    display: inline-flex;
 }
 
 .btn-group button:focus {

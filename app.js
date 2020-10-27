@@ -21,8 +21,11 @@ function reset(){
 }
 
 function numberInput(e){
+    if(e.target.value===undefined){}
+    else{
     document.getElementById("display").innerHTML += e.target.value;
     stack += e.target.value;
+    };
 };
 
 function operatorInput(e){
