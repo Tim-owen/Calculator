@@ -1,3 +1,3 @@
 # Calculator
 
-![Calculator](docs/calculator.png)
+![Calculator](resources/calculator.png)
